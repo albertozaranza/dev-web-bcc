@@ -1,0 +1,3 @@
+olaMundo = () => {
+    alert('Olá mundo')
+}
