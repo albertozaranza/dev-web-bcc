@@ -4,3 +4,12 @@ verificar = () => {
     document.getElementById('data').innerHTML = data
     setTimeout('verificar()', 1000)
 }
+
+/*
+    format = (string, size) => {
+        while(string.length < size){
+            string = '0' + string
+        }
+        return string
+    }
+*/

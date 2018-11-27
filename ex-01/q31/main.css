@@ -1,0 +1,13 @@
+body {
+    margin: 10px;
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.imagem {
+    width: 150px;
+    height: 150px;
+}

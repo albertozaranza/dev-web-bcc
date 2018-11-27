@@ -1,0 +1,52 @@
+body {
+    margin: 10px;
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.font {
+    font-size: 200px;
+    height: 100%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.destaque {
+    width: 500px;
+    height: 500px;
+    background-color: #0CB1C4;
+    animation: spin 5s linear 1s;
+
+    /*
+
+    A primeira nada mais é que o nome da animação. 
+    Ela pode ser qualquer coisa, pois a definimos 
+    posteriormente no nosso CSS.
+    
+    A segunda propriedade representa
+    o tempo total da animação. 
+    
+    A terceira propriedade diz que a animação
+    deve ser executada de forma linear, ou seja,
+    sem aceleração ou qualquer tipo de diferença
+    na velocidade dela, sempre constatne. 
+    
+    Por fim, dizemos a animação por quanto 
+    tempo ela deve se repetir.
+
+    */
+}
+
+@keyframes spin {
+    0% {
+     transform: rotateZ(0deg);
+    }
+    100% {
+     transform: rotateZ(1800deg);
+    }
+}

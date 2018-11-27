@@ -1,0 +1,12 @@
+body {
+    margin: 10px;
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.destaque {
+    font-weight: bold
+}

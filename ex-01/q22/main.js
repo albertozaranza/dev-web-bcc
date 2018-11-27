@@ -18,3 +18,39 @@ verificar = () => {
         }
     }   
 }
+
+/*
+
+function tabuada(t) {
+    let code = "<div class='tabuada'>"
+    for (let i = 1; i <= 10; ++i) {
+        code += 
+          "" + t +" x " +i+" = " + (t*i) +"<br/>"
+    }
+    code += "</div>"
+    return code
+}
+
+window.onload = () => {
+    let div = document.getElementById('res22')
+    for (let t = 1; t <= 10; ++t)
+        div.innerHTML += tabuada(t)
+}
+
+
+
+CSS:
+
+div {
+    border: 1px solid red;
+    padding: 10px;
+    margin: 10px;
+}
+
+.tabuada {
+    display:inline-block;
+    
+    position: relative;
+}
+
+*/

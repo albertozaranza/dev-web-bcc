@@ -6,3 +6,14 @@ verificar = () => {
         div.appendChild(rep)
     }   
 }
+
+/*
+
+window.onload = () => {
+    for(let i=0; i<20; i++){
+        let div = document.getElementById('resultado')
+        div.innerHTML += 'Repetição <br>'
+    }   
+}
+
+*/
