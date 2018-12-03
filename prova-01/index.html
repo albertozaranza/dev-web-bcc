@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <title>Prova - 01</title>
+</head>
+<body>
+    <div class="blocos">
+        Matricula de Instituição
+
+        <br>
+        <div class="blocos">
+            <label for="input_nome_instituicao">Nome da instituição:</label> <br>
+            <input type="text" id="input_nome_instituicao">
+            <button onclick="adicionarInstituicao()">Cadastrar</button>
+        </div>
+        
+    </div>
+    <div class="blocos">
+        Matricula de Aluno
+
+        <div class="blocos">
+                <label for="input_nome_aluno">Nome do aluno:</label> <br>
+                <input type="text" id="input_nome_aluno"> <br>
+                <select id="select_inst">
+                    
+                </select> <br>
+                <button onclick="adicionarAluno()">Cadastrar</button>
+            </div>
+    </div>
+    <div class="blocos">
+        Lista de Instituições
+
+        <div class="blocos">
+            <ul id="lista_inst">
+
+            </ul>
+        </div>
+
+        Lista de Alunos
+
+        <div class="blocos">
+            <ul id="lista_aluno">
+                
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

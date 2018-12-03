@@ -49,7 +49,7 @@ atualizarHTMLItem = (index) => {
         list.children[index].innerHTML = 
             descricao(nomes[index])
     }
-}
+}   
 
 excluir = (index) => {
     --nomes[index].frequencia
