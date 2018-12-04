@@ -2,50 +2,76 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <script src="app.js"></script>
     <title>Prova - 01</title>
 </head>
 <body>
-    <div class="blocos">
-        Matricula de Instituição
+    <nav class="navbar navbar-dark bg-dark">
+        <span class="navbar-brand mb-0 h1">Prova - 01</span>
+    </nav>
 
-        <br>
-        <div class="blocos">
-            <label for="input_nome_instituicao">Nome da instituição:</label> <br>
-            <input type="text" id="input_nome_instituicao">
-            <button onclick="adicionarInstituicao()">Cadastrar</button>
-        </div>
-        
-    </div>
-    <div class="blocos">
-        Matricula de Aluno
+    <div class="row blocos m-2">
 
-        <div class="blocos">
-                <label for="input_nome_aluno">Nome do aluno:</label> <br>
-                <input type="text" id="input_nome_aluno"> <br>
-                <select id="select_inst">
-                    
-                </select> <br>
-                <button onclick="adicionarAluno()">Cadastrar</button>
+        <div class="blocos col p-3  mr-2">
+
+            <h2>Matricula de Instituição</h2>
+    
+            <br>
+            <div class="blocos bg-light p-2" style="height: 200px">
+                <label for="input_nome_instituicao">Nome da instituição:</label> <br>
+                <input type="text" id="input_nome_instituicao"> <br>
+                <button onclick="adicionarInstituicao()" class="btn btn-primary mt-2">Cadastrar</button>
             </div>
-    </div>
-    <div class="blocos">
-        Lista de Instituições
-
-        <div class="blocos">
-            <ul id="lista_inst">
-
-            </ul>
+            
         </div>
 
-        Lista de Alunos
-
-        <div class="blocos">
-            <ul id="lista_aluno">
-                
-            </ul>
+        <div class="blocos col p-3 ml-2">
+            <h2>Matricula de Aluno</h2> 
+    
+            <br>
+            <div class="blocos bg-light p-2" style="height: 200px">
+                    <label for="input_nome_aluno">Nome do aluno:</label> <br>
+                    <input type="text" id="input_nome_aluno"> <br>
+                    <select id="select_inst" class="custom-select mt-2">
+                        
+                    </select> <br>
+                    <button onclick="adicionarAluno()" class="btn btn-primary mt-2">Cadastrar</button>
+                </div>
         </div>
+
     </div>
+
+    <div class="blocos row m-2 p-3">
+
+        <div class="blocos col">
+            
+            <h3>Lista de Instituições</h3>
+
+            <div class="blocos">
+                <ul id="lista_inst" class="list-group">
+
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="blocos col">
+
+            <h3>Lista de Alunos</h3>
+            
+
+            <div class="blocos">
+                <ul id="lista_aluno" class="list-group">
+                    
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    
+    
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
